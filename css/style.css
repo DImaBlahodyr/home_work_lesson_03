@@ -1,0 +1,29 @@
+@import url('reset.css');
+
+* {
+  color: red;
+}
+h2 {
+  color: blueviolet;
+}
+a {
+  color: bisque;
+}
+p.text {
+  color: yellow;
+}
+.link {
+  color: blue;
+}
+.link > p {
+  color: black;
+}
+[class*='xt'] {
+  color: cadetblue;
+}
+#culture-info > p {
+  color: chartreuse;
+}
+.text-info ~ p {
+  color: darkblue;
+}
